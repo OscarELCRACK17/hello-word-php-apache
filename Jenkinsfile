@@ -1,6 +1,3 @@
-git clone this repository
-
-
 pipeline {
     agent any
 
