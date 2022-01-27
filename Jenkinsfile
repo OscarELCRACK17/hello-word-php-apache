@@ -4,7 +4,7 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                sh 'sudo docker build -t hello-word-php-apache .'
+                sh 'sudo docker build -t hello-word-php-apache'
             }
         }
         stage('Deploy') {
