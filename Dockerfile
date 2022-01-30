@@ -1,0 +1,3 @@
+FROM php:IMAGEN OFICIAL DE PHP
+COPY src/ /var/www/html
+EXPOSE 80
